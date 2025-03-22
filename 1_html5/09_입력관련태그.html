@@ -21,7 +21,7 @@
     - inline 형식 (모든 input 태그가 inline)
   </pre>
 
-  <input>
+  <input> <br>
   <input type="text">
 
   <pre>
@@ -60,7 +60,9 @@
      
      단, tel은 유효한 전화번호 형식인지 검사하는게 아니라 모바일 환경에서 키패드를
      켜준다는 특징이 있음-->
-  <hr> <hr> <hr>
+  <hr>
+  <hr>
+  <hr>
 
   <h3>숫자 관련 input 태그</h3>
 
@@ -84,16 +86,20 @@
   <p>슬라이드바를 이용해서 숫자 지정(단독 사용 x , 자바스크립트 JS와 같이 사용)</p>
   <input type="range" min="0" max="100" step="10">
 
-  <hr><hr> <hr>
+  <hr>
+  <hr>
+  <hr>
 
   <h3>날짜 /시간 관련된 input 태그</h3>
-  <input type="date"><br>
-  <input type="month"><br>
-  <input type="week"><br>
-  <input type="time"><br>
-  <input type="datetime-local"><br>
+  <input type="date"><br><br>
+  <input type="month"><br><br>
+  <input type="week"><br><br>
+  <input type="time"><br><br>
+  <input type="datetime-local"><br><br>
 
-  <hr><hr><hr>
+  <hr>
+  <hr>
+  <hr>
 
   <h3>radio 와 checkbox</h3>
   <pre>
@@ -146,9 +152,9 @@ for 속성 : 연결할 입력 창의 id속성과 일치하게끔 작성.
   <hr>
   <hr>
   <h3>기타 input태그</h3>
-  type = "color" : <input type="color"> <br>
-  type = "file" : <input type="file"> <br>
-  type = "hidden" : <input type="hidden" value="홍길동"> <br>
+  type = "color" : <input type="color"> <br><br>
+  type = "file" : <input type="file"> <br><br>
+  type = "hidden" : <input type="hidden" value="홍길동"> <br><br>
   <!-- 화면상에는 보이지 않지만 분명 값은 존재함 from태그 안에서 사용하면 화면상에는 보이지 않지만 서버로 value에 있는 값이 제출됨 -->
 
   <hr>
@@ -179,8 +185,8 @@ for 속성 : 연결할 입력 창의 id속성과 일치하게끔 작성.
 
   </form>
 
-  <!-- 주소 ?id=user01&pw1234 
- 
+  <!-- 
+  주소 ?id=user01&pw1234 
 ? : 제출된 값을 나타내는 문자열의 시작부분
 id, pw :input태그의 name 속성 값
 user01,1234 :input 태그에 입력한 값 (value값)
@@ -197,8 +203,8 @@ get 방식 :우리가 서버에 데이터를 제출할때 그 값이 주소창�
   폼 제출, JS와 연결된 기능 수행 역할
 
   type 속성
-  1.submi(기본 값) :폼 태그 내부에 작성되어 있을때 클릭이 되면 input에 작성된 값을 서버로 제출하는 역할.
-  2.reset : 초기화 : 입력창 안에 작성된 내용을 초기화 하는 기능.
+  1.submit (기본 값) :폼 태그 내부에 작성되어 있을때 클릭이 되면 input에 작성된 값을 서버로 제출하는 역할.
+  2.reset (초기화) : 입력창 안에 작성된 내용을 초기화 하는 기능.
   3.button : 그냥 버튼 (아무런 역할 x , 자바스크립트와 연결하는 용도)
 -->
   <hr>
@@ -209,7 +215,6 @@ get 방식 :우리가 서버에 데이터를 제출할때 그 값이 주소창�
     <input type="checkbox" name="hobby" value="야구">야구
     <input type="checkbox" name="hobby" value="축구">축구
     <input type="checkbox" name="hobby">게임
-
     <button>제출</button>
   </form>
 
@@ -268,6 +273,7 @@ get 방식 :우리가 서버에 데이터를 제출할때 그 값이 주소창�
       <option>선택4</option>
       <option disabled>선택5</option>
     </select>
+    <br><br><br>
 
     <button>제출</button>
   </form>
@@ -279,7 +285,7 @@ get 방식 :우리가 서버에 데이터를 제출할때 그 값이 주소창�
  selected 속성 : select의 기본값을 설정하는 속성
  disabled 속성 : select불가 / option을 비활성화 (클릭 및 입력불가)
  -->
-
+<br><br>
 
   <input type="checkbox" checked>
   <input type="radio" checked>
