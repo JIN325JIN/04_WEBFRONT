@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#youtube-logo{
+  width: 150px;
+}
+
+.search-area
+{
+width: 500px;
+}
+.search-area fieldset{
+  border: 2px solid #455ba8;
+  border-radius: 5px;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+#youtube-profile{
+  width: 80px;
+  border-radius: 50px;
+}
+.main-video{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  
+}
+#search-btn{
+  width: 50px;
+}
+.search-area>form{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-area>form>div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#query{
+width: 100%;
+}
