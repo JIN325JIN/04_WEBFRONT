@@ -10,8 +10,8 @@ div[name ~= "aaa"]{
 |= : "-" 앞쪽 단어가 일치하는 요소 선택
 */
 div[class |= "str"]{
-  font-weight: bold
-  color = red;
+  font-weight: bold;
+  color : red;
 }
 
 /*
@@ -38,3 +38,5 @@ div[class $= "class2"]{
 div[name *= "2"]{
   border: 3px solid blue;
 }
+
+

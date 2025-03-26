@@ -8,8 +8,10 @@
 /*id가 test1의 자식 요소중 
 형제관계의 요소 중 첫번째 요소가 p태그 인가? 
 6자식중 첫번째 자식이 p태그인가?? yes! 
+
 => 첫번재 요소가 p태그라서 스타일 적용이 되었다!
 pre로 코드 수정하면 스타일 적용 X */
+
 #test1>p:first-child{
 background-color: red;
 color:white;
@@ -115,7 +117,6 @@ nth -last-child (수열)
 }
 
 /*부정 선택자*/
-
 
 /*#test3 자식 li 요소 중 3의 배수를 제외한 요소만 선택하여 배경색 aqua*/
 /*:nth-of-type(3n) 도 가능 */
