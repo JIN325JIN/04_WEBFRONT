@@ -5,8 +5,6 @@
   color: white;
 }
 
-
-
 /*4순위 클래스 선택자 */
 .cls1{
   background-color: green;
@@ -18,7 +16,6 @@
 /*동일한 우선순위에서는 아래쪽에 (더 나중에)
 작성된 설정값이 우선 적용 됨*/
 
-
 /*5순위 : 태그 선택자*/
 div{
   width: 200px;
@@ -26,3 +23,4 @@ div{
   background-color: red !important;
                   /*1순위 : impoartant*/
 }
+

@@ -16,7 +16,7 @@
 }
 
 .inline-block{
-  display: none;
+  display: inline-block;
 }
 
 /*감싸는 영역 요소*/

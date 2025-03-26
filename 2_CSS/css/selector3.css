@@ -21,7 +21,6 @@ div[class |= "str"]{
 div[class ^= "class"]{
   background-color: black;
   color: white;
-  
 }
 
 /*
@@ -38,5 +37,3 @@ div[class $= "class2"]{
 div[name *= "2"]{
   border: 3px solid blue;
 }
-
-
