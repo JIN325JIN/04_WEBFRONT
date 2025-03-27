@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  /* border: 1px solid black; */
+   border: 1px solid black; 
 }
 
 
@@ -24,10 +24,28 @@ width: 500px;
   padding: 2px;
   display: flex;
   justify-content: space-between;
+  width:300px;
+  height:30px;
+}
+#bell-area{
+  display: flex;
 }
 #youtube-profile{
   width: 80px;
   border-radius: 50px;
+}
+#plus{
+  border-radius: 25px;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+#bell{
+  font-size: 40px;
 }
 .main-video{
   display: flex;
@@ -41,13 +59,201 @@ width: 500px;
 .search-area>form{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .search-area>form>div{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 #query{
 width: 100%;
+}
+#hamburger1{
+font-size: 25px;
+color: gray;
+}
+#keyboard{
+  font-size: 25px;
+  color: gray;
+}
+#search-btn{
+  font-size: 25px;
+  color: gray;
+}
+.mainbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.main-mnet{
+  display: flex;
+}
+#mnet-logo{
+  width: 60px;
+  justify-content: center;
+}
+
+.main-mnet{
+  display: flex;
+  
+}
+.box2{
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px; 
+  flex-basis: 70%;
+  
+}
+.box1, .box4{
+  flex-basis: 20px;
+  padding: 0 30px;
+  margin:0;
+}
+.main-video iframe {
+  width: 100%; /* 부모 요소 크기만큼 채우기 */
+  height: calc(70vw * 0.5625); /* 16:9 비율 유지 (70vw * 9/16) */
+}
+.main-video{
+  width: 60vw;  /* 화면 너비의 70% */
+  margin: 0 auto; /* 중앙 정렬 */
+}
+.textbox{
+  font-size: 15px;
+  
+ 
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  /*텍스트 수직 방향 정렬*/
+  overflow: hidden;
+}
+.box3{
+  /* width: 200px; */
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  
+}
+.main-mnet{
+  justify-content: space-between; 
+ }
+ .textbox{
+  justify-content: center;
+ }
+ .reflies{
+  display: flex;
+  flex-direction: column;
+  
+ }
+#comments{
+  font-size: 20px;
+  width: 100%;
+  max-width: 500px; /* 최대 너비 설정 */
+  display: block; /* 블록 요소로 변경 */
+ }
+ #thumsUp,#thumsDown{
+  font-size: 15px;
+ }
+ #youtube-shorts-1,#youtube-shorts-2,#youtube-shorts-3{
+  width:130px;
+  height:240px;
+ }
+ #youtube-profile1{
+  width: 45px;
+  border-radius: 50px;
+ }
+ .comment-header {
+  display: flex;         /* 가로 정렬 */
+  align-items: center;   /* 세로 중앙 정렬 */
+  justify-content: space-between; /* 좌우 정렬 */
+  width: 100%;           /* 부모 요소 크기만큼 */
+  padding: 10px 0;       /* 위아래 여백 추가 */
+}
+
+.comment-header span {
+  font-size: 18px; /* 글자 크기 조정 */
+  font-weight: bold;
+}
+
+#hamburger2 {
+  font-size: 20px; /* 아이콘 크기 */
+  margin-left: 10px; /* 간격 조정 */
+}
+
+.sorting {
+  margin-left: auto; /* 오른쪽으로 정렬 */
+  font-size: 16px;
+  cursor: pointer;
+}
+#comments-box{
+  display: flex;
+  flex-direction: row;
+}
+#youtube-profile-comments1,#youtube-profile-comments2{
+  border-radius: 50%;
+  width: 50px;
+}
+.citizen,.citizen1{
+  display: flex;
+}
+#subscribe{
+  border-radius: 15px;
+  width: 60px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+a{
+  text-decoration: none;
+}
+#thumbs,#share,#cut,#bookmark,#flag{
+  border-radius: 25px;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  
+}
+#down{
+  border-radius: 25px;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+a:visited {
+  color: black;
+}
+#subscribe a:visited{
+  color: white;
+}
+#gd1+p,#gd2+p{
+  font-size: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  /*텍스트 수직 방향 정렬*/
+  overflow: hidden;
+  width: 168px;
+}
+#shorts-box{
+  display: flex;
+  gap: 12px;
 }

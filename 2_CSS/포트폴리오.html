@@ -17,7 +17,9 @@
       <section class="section1">
         <!-- 메뉴바 -->
         <a href="#">
-          <i class="fa-solid fa-bars fa-3x"></i>
+          <i class="fa-solid fa-bars fa-3x" id="hamburger1"></i>
+        </a>
+        <a href="#">
           <img src="../images/logo/logo long.png" id="youtube-logo">
         </a>
       </section>
@@ -31,14 +33,21 @@
         <form action="#" name="search-form">
           <div>
             <!-- fieldset : form태그 내부에서 input을 종류별로 묶는 용도-->
-            <fieldset style="width:300px;height:30px;">
+            <fieldset>
               <!-- autocomplite : html 기본 자동완성 사용 x -->
               <input type="search" id="query" name="query" autocomplete="off" placeholder="검색" style="border: none;">
 
-              <i class="fa-solid fa-keyboard fa-2x"></i>
+              <a href="#">
+                <i class="fa-solid fa-keyboard fa-2x" id="keyboard"></i>
+              </a>
+
 
             </fieldset>
-            <button id="search-btn" class="fa-solid fa-magnifying-glass"></button>
+
+            <a href="#">
+              <button id="search-btn" class="fa-solid fa-magnifying-glass"></button>
+            </a>
+
           </div>
           <i class="fa-solid fa-microphone fa-2x"></i>
 
@@ -46,31 +55,197 @@
       </section>
 
       <!-- 마이크.만들기.종.내프로필 -->
-      <section>
+      <section id="bell-area">
 
-        <span> + 만들기 </span>
-        <i class="fa-solid fa-bell fa-2x"></i>
+        <div id="plus">
+          <a href="#" >&nbsp&nbsp &nbsp &nbsp+ 만들기 &nbsp </a>
+
+        </div>
+        <i class="fa-solid fa-bell fa-2x" id="bell"></i>
         <a href="#">
-          <img src="../images/youtube profile.jpg" id="youtube-profile">
+          <img src="../images/logo/youtube profile.jpg" id="youtube-profile">
         </a>
       </section>
 
     </header>
-    <!-- 중앙 섹션 -->
-    <section class="main-video">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/74QQZxkALdw?si=pbypEvRSS_PLhzLm"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="mainbox">
 
-      <strong>'최초 공개/4K' G-DRAGON - TOO BAD (feat. Anderson .Paak) #엠카운트다운 EP.877 | Mnet 250227 방송</strong>
+      <div class="box2">
+        <!-- 지드래곤 영상용 -->
 
-      <div>
+        <!-- 얘는 세로로 내려가면서 영상/제목/버튼들/회색구간/댓글 -->
+        <section class="main-video">
+          <iframe width="200" height="125" src="https://www.youtube.com/embed/74QQZxkALdw?si=pbypEvRSS_PLhzLm"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+          <strong>'최초 공개/4K' G-DRAGON - TOO BAD (feat. Anderson .Paak) #엠카운트다운 EP.877 | Mnet 250227 방송</strong>
+
+          <div class="main-mnet">
+            <a href="#">
+              <img src="../images/logo/mnet.jpg" id="mnet-logo">
+            </a>
+            <div class="mnet">
+              <strong> Mnet K-pop</strong>
+              <div>구독자2170만명</div>
+            </div>
+            <div id="subscribe">
+              <a href="#">구독</a>
+            </div>
+            <div class="blankbox">
+            </div>
+            <div id="thumbs">
+              <a href="#">
+                <i class="fa-regular fa-thumbs-up" id="thumsUp"></i>
+                16만
+              </a>
+              <a href="#">
+                <i class="fa-regular fa-thumbs-down" id="thumsDown"></i>
+              </a>
+            </div>
+            <div id="share">
+               <a href="#">
+                  <i class="fa-solid fa-up-right-from-square"></i>
+                  공유
+              </a>
+            </div>
+            <div id="down">
+              <a href="#">
+                <i class="fa-solid fa-download"></i>
+                오프라인저장
+              </a>
+            </div>
+            <div id="cut">
+              <a href="#">
+                <i class="fa-solid fa-scissors"></i>
+                클립
+              </a>
+            </div>
+            <div id="bookmark">
+              <a href="#">
+                <i class="fa-regular fa-bookmark"></i>
+                저장
+              </a>
+            </div>
+            <div id="flag">
+              <a href="#">
+                ...
+              </a>
+            </div>
+          </div>
+          <!--댓글 -->
+          <div class="textbox">
+            조회수 6,724,180회 2025. 2. 27.<br>
+            티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f<br>
+
+            M COUNTDOWN｜Ep.877
+            지드래곤 - 투 배드 (G-DRAGON - TOO BAD (feat. Anderson .Paak))<br>
+
+            World No.1 K-POP Chart Show M COUNTDOWN<br>
+            Every Thur 6PM(KST) Mnet Live on Air<br>
+            매주 목요일 저녁 6시 엠넷 생방송<br>
+
+            #티빙에서스트리밍
+          </div>
+          <div class="reflies">
+            <div class="comment-header">
+              <span>댓글 11,751개</span>
+              <a href="#">
+                <i class="fa-solid fa-bars hamburger2"></i> <!-- 햄버거 아이콘 -->
+              </a>
+              <span class="sorting">정렬 기준</span>
+            </div>
+            <div>
+              <form id="comments-box">
+                <a href="#">
+                  <img src="../images/logo/youtube profile.jpg" id="youtube-profile1">
+                </a>
+                <textarea rows="1" cols="200" placeholder="댓글추가..."></textarea><br><br>
+              </form>
+
+              <div class="citizen">
+                <a href="#">
+                  <img src="../images/youtube/profileImage.jpg" id="youtube-profile-comments1">
+                </a>
+                <div>G-DRAGON 콘서트 3월 29일 개최!!!!!</div>
+              </div>
+              <div class="citizen1">
+                <a href="#">
+                  <img src="../images/youtube/IMG_9022dfdfdfdf.JPG" id="youtube-profile-comments2">
+                </a>
+                <div>속보!!! 이윤진 지드래곤 콘서트에 100만원 태워....빚이 1억...파산 신청 예정...신명하 충격으로 사망</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="box3">
+        <div id="tracklist">
+          <!-- 재생목록용 -->
+           <strong>재생목록</strong><br><br>
+         <div>
+          <iframe width="168" height="94" src="https://www.youtube.com/embed/c3jK48Hy3u0?si=sijfQgWMvFOvLo37"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="gd1"></iframe>
+          <p>G-DRAGON - 'TOO BAD (feat. Anderson .Paak)' Official Performance Video with RIEHATA</p>
+         </div>
+
+         <div>
+          <iframe width="168" height="94" src="https://www.youtube.com/embed/jNjmTYxeIgU?si=2PS2aQ6bcchTf-Xu"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="gd2"></iframe>
+         <p> [4K] [#2024MAMA] WONDER STAGE | G-DRAGON-무제(Untitled, 2014)+POWER+HOME SWEET HOME+뱅뱅뱅+FANTASTIC BABY</p>
+
+         </div>
+
+        </div>
+
+
+       <div>
+        <hr>
+        <a href="#">
+          <img src="../images/logo/shorts.PNG" id="youtube-shorts">
+        </a>
+        
+        <strong>SHORTS</strong><br>
+
+        <div id="shorts-box">
+          <!-- 쇼츠용 -->
+         <div id="shorts-1">
+          <a href="#">
+            <img src="../images/youtube/gd를 향한 지독한 사랑.avif" id="youtube-shorts-1"><br>
+          </a>
+          <strong>GD를 향한 지독한 사랑</strong>
+
+         </div>
+         <div id="shorts-2">
+          <a href="#">
+            <img src="../images/youtube/100프로생라이브굿보이.avif" id="youtube-shorts-2"><br>
+          </a>
+          <strong>100%생라이브굿보이</strong>
+         </div>
+        </div>
+        <hr>
+        <div>
+          <!-- 리믹스용 -->
+
+          <strong>이 동영상을 리믹스한 Shorts 동영상 </strong>
+          <br>
+          <a href="#">
+            <img src="../images/youtube/oar2.avif" id="youtube-shorts-3">
+          </a>
+          <br>
+          지드래곤 too bad
+
+        </div>
+       </div>
+        <hr>
+
 
       </div>
-    </section>
-    <!-- 오른쪽에 다음재생 목록, 쇼츠, -->
-    <section></section>
 
   </main>
 
