@@ -67,6 +67,7 @@
 항상 부모요소의 100%
 */
 
+/*첫번째 요소에게 */
 #container-2>.div-2:nth-of-type(1){
   height: 20%;
   background-color: red;
@@ -92,7 +93,7 @@
 .div-3{
   width: 50%;
   height: 100%;
-  display: inline-block;
+   display: inline-block; 
   
 }
 
