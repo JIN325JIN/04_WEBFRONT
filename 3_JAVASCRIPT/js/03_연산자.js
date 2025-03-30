@@ -11,8 +11,6 @@ const number1 = document.getElementById("input1");
 
 const number2 = document.getElementById("input2");
 
-
-
 const result = document.getElementById("calcResult");
 
 
