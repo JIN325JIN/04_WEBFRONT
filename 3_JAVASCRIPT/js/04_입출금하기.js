@@ -1,12 +1,10 @@
 //prompt 사용 연습
-
 function test(){
 
   const password = prompt("비밀번호를 입력하세요.");
   console.log(password);
   //확인 -> 입력한 값이 문자열로 저장
   //취소 -> null이 저장
-
 
   if(password==null){
     alert("취소");
@@ -18,7 +16,6 @@ function test(){
     }else{
       alert("비밀번호 불일치!");
     }
-
   }
 }
 

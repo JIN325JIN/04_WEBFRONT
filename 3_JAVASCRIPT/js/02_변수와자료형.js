@@ -64,8 +64,8 @@ console.log("menu:"+menu);
 //2.let (변수,var의 변수명 중복 문제 해결)
 let number3 = 25;
 // let number3 = 500;//변수명중복 불가
+console.log("number3: "+number3);
 number3 = 500; // 기존 변수 number3에 새로운 값 재 할당 가능
-
 console.log("number3: "+number3);
 
 //-----------------------------------
@@ -73,7 +73,7 @@ console.log("number3: "+number3);
 //한번 값이 대입되면 새로운값 대입할 수 없음.
 
 const PI =3.141592;
-
+console.log(PI);
 // const test;//상수는 선언과 동시에 초기화 반드시
 
 // PI = 1.23;
@@ -182,8 +182,6 @@ console.log(a);
 //java script 에서 let/const키워드로 선언된 변수가 초기화 되기 전까지 접근 할 수 잇는 구간을 말함.
 
 
-
-
 //let.x; (내부적으로 선언은 끌어올려진 상태)
 //x의 선언이 호이스팅 됨.
 //그러나 TDZ에 놓여 초기화 전까지 접근 불가
@@ -197,22 +195,19 @@ let x = 50;
 console.log(x);//50 출력 : 우리가 알고있는 코드의 흐름
 
 
-
-
 //Uncaught ReferenceError: Cannot access 'n' before initialization
 //선언은 끌어올려지지만 tdz존에 있어서 초기화 하기전까지 사용 불가능
 // console.log(n);
 const n =100;
 console.log(n);
 
-//--------------------------------
 
+//=>이러한 특성 때문에 let/const 는 var보다 예측가능한 코드 작성 가능
+
+//--------------------------------
 //JS자료형 확인하기
 
 //typeof연산자 : 변수/ 값의 자료형을 출력하는 연산자
-
-
-
 
 //undefined : 정의되지않은 변수/ 값이 아직 대입되지 않았다.
 let undef;//변수 선언
