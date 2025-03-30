@@ -71,5 +71,5 @@ img{
   transition-delay: 2s;
 }
 .test4:hover{
-  transition: translateX(100px);
+ transform: translateX(100px);
 }
