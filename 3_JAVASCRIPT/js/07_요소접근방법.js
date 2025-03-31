@@ -149,7 +149,6 @@ if(input.value.trim().length==0){
   input.value ="";
   input.focus();
 
-
 }
 
 /*아이디가 user-input 인 input요소에서 키보드의 키가 올라오는 동작이 발생했을때 (감지되었을때)

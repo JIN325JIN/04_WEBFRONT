@@ -47,12 +47,6 @@ test1c.onclick=function(){
 };
 
 
-//시간이 지난뒤
-
-test1c.onclick=function(){
-  test1c.style.Color="white";
-};
-
 //-> onclick에 저장된 값이 덮어씌워지면서 
 // 이전코드 (배경색 red)가 사라지는 문제 발생
 

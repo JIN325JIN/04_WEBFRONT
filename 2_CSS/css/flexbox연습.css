@@ -168,6 +168,10 @@ div{
     flex-basis: 30%;
 }
 /* 3등분하면 10정도 남는데 그거 처리하는 방법 재호한테물어봄 */
+ /* flex-basis: calc(100%/3); */
+ /* 큰네모에서 calc하면 댐 */
+
+
 .container5-body-1-1{
     flex-basis: 40%;
     background-color: skyblue;
