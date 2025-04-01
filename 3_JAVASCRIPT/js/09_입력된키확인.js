@@ -2,7 +2,7 @@
 //문자열.toUpperCase(): 영어를 모두 대문자로 변경 (a->A)
 
 
-/*
+
 
 
 //화면에 존재하는 key 모두 얻기
@@ -47,7 +47,7 @@ if(e.key.toUpperCase() =='R'){
 
 });
 
-*/
+
 
 /*선생님 코드
 document.addEventListener("keydown",function(e){
@@ -75,7 +75,7 @@ document.addEventListener("keydown",function(e){
 
 
 
-
+/*선생님 코드
 //화면에 존재하는 key 모두 얻기
 const keys = document.querySelectorAll(".key")
 
@@ -106,3 +106,6 @@ function changeKeyColor(e,color){
 document.addEventListener("keydown",(e)=>changeKeyColor(e,"deepPink"));
 document.addEventListener("keyup",(e)=>changeKeyColor(e,"white"));
 // document.addEventListener("keydown",function(e){changeKeyColor(e);});//둘이 같음
+
+
+*/
