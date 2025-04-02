@@ -1,17 +1,17 @@
 //Window.setTimeout()
+
 document.getElementById("btn1").addEventListener("click",()=>{
 
   setTimeout(function(){
     alert("3초후 출력!");
   },3000);
 
-
 });
+
+
 //Window.setInterVal()
 
 let InterVal;//setInterval을 저장하기 위한 전역 변수
-
-
 
 //현재시간 문자열로 반환 함수
 function currentTime(){
@@ -31,10 +31,9 @@ function currentTime(){
   return hour +":"+ min+":"+sec;
 
 }
+
+
 //currentTime();
-
-
-
 function clockFn(){
   const clock = document.getElementById("clock");
   clock.innerText= currentTime();//hour +":"+min+":"+sec;
@@ -49,5 +48,5 @@ clockFn();//함수호출
 
 
 document.getElementById("stop").addEventListener("click",()=>{
-  clearInterval(interval);
+  clearInterval(Interval);
 });

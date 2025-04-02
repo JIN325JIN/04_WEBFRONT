@@ -44,7 +44,7 @@ console.log(container.classList);
 
 */
 
-//innerHTML요소 추가하지
+//innerHTML요소 추가하기
 const innerHTMLBox = document.querySelector("#innerHTMLBox");
 
 innerHTMLBox.addEventListener("click",()=>{

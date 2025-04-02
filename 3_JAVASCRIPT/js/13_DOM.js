@@ -8,7 +8,7 @@ document.querySelector("#btn1").addEventListener("click",()=>{
   //#test의 모든 자식 노드 얻어오기
   //요소.childNodes -> 배열
 
-  const list = test.childNodes;//ul태그의 모든 자식요소 얻어오기ㄿ  console.log(list);
+  const list = test.childNodes;//ul태그의 모든 자식요소 얻어오기 console.log(list);
 
 
   //자식 노드중 첫번째 li 요소
@@ -68,18 +68,18 @@ document.querySelector("#btn1").addEventListener("click",()=>{
 });
 //-----------------------------------------------------------------------------------------------
 document.querySelector("#btn2").addEventListener("click",()=>{
-  //test2 얻어오기
-  const test2 = document.querySelector("#test2");
+    //test2 얻어오기
+    const test2 = document.querySelector("#test2");
 
-  //test2의 모든 자식 요소 얻어오기 : children
+    //test2의 모든 자식 요소 얻어오기 : children
 
-  console.log(test2.children);//html 컬렉션
+    console.log(test2.children);//html 컬렉션:[li, li.cls, li, li]
 
-  //#test2의 첫번째 자식 요소
-  console.log(test2.firstElementChild);
+    //#test2의 첫번째 자식 요소
+    console.log(test2.firstElementChild);//li
 
     //#test2의 마지막 자식 요소
-    console.log(test2.lastElementChild);
+    console.log(test2.lastElementChild);//li태그
 
     //#test2의 부모요소 
     console.log(test2.parentElement);//body태그가 부모고 나머지는 형제 태그임
