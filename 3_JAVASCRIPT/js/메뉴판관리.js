@@ -13,7 +13,8 @@
 
 
 
-/*<input type ="checkbox" class =checkbox1">
+/*
+<input type ="checkbox" class =checkbox1">
 <input type ="text" placeholder="메뉴명" class="foodbox1">
 <input type ="text" class ="pricebox1" placeholder="가격">
 
@@ -21,10 +22,6 @@
 15개 이상은 더이상 메뉴를 추가할수 없습니다 alert창.
 
 checked속성되면 부모태그를 지우고
-
-
-
-
 
 */
 
@@ -73,10 +70,7 @@ container.append(menu);
 
 
 
-
-
 });
-
 
 
 
@@ -157,3 +151,17 @@ span.addEventListener("click",(e)=>{
 
 
 
+//만약에 수정버튼을 누르면 히든으로 되어있는 버튼들을 보여달라.
+const updateBtn = document.getElementById("updateBtn");
+const editContainer = document.querySelector(".edit-container");
+const editBtn = document.getElementById("exitBtn");
+
+
+updateBtn.addEventListener("click",()=>{
+  editContainer.classList.remove("b-hidden");
+  editContainer.classList.remove("updateBtn");// 수정버튼보이기
+});
+
+exitBtn.addEventListener("click",()=>{
+  editContainer.classList.add("b-hidden");//완료버튼 숨기기
+});
