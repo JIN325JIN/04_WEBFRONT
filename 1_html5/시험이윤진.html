@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이윤진_html시험</title>
+  <link rel="stylesheet" href="../1_HTML5/시험이윤진.css">
+</head>
+
+<body>
+  <form action="insert.no" method="post" name="notice">
+    <fieldset>
+      <legend>
+        공지사항 작성하기 <br>
+      </legend>
+      <table>
+        <thead>
+          <tr>
+            <th>제목</th>
+            <td><input type="text" name="title" placeholder="제목을 입력하시오." size="43"><br></td>
+          </tr>
+        </thead>
+
+        <tbody>
+         <tr>
+          <th>내용</th>
+          <td><textarea rows="10" cols="45" name="content" placeholder="내용을 입력하시오."
+            style="resize :none;"></textarea><br></td>
+         </tr>
+         <tr>
+          <th>첨부파일</th>
+          <td><input type="file" name="uploadFile"><br></td>
+         </tr>
+        </tbody>
+  
+        <tfoot>
+          <tr>
+            <td></td>
+            <th><button style="width:80px;">작성하기</button></th>
+          </tr>
+        </tfoot>
+      </table>
+    </fieldset>
+  </form>
+ 
+</body>
+
+</html>
