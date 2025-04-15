@@ -12,7 +12,7 @@ const allign = document.querySelector("#align");
 
 
 document.querySelector("#changeButton").addEventListener("click",function(){
-  if(e.key =="click"){
+ 
     box.style.backgroundColor=box.value;
     box.style.Color=color.value;
     box.style.backgroundColor=box.value;
@@ -23,6 +23,6 @@ document.querySelector("#changeButton").addEventListener("click",function(){
     box.style.size=size.value;
     total.horizon=total.value;
     total.allign=total.value;
-  }
+  
 });
 
