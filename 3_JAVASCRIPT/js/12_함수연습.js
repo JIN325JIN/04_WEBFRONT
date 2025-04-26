@@ -43,9 +43,11 @@ fn5("apple");
 // 해당 문자열을 주어진 횟수만큼 반복하여 출력하는 
 // 함수를 선언 및 정의하고 호출하시오
 function fn6(str,num){
+  let result="";
   for(let i =0; i<num;i++){
-    console.log("str");
+    result += str;
   }
+  console.log("6번 함수 :" , result);
 }
 fn6("안뇽",3);
 

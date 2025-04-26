@@ -140,7 +140,7 @@ twoNumberPlus((a,b)=>a+b);
   arrowList[3].addEventListener("click",()=>{
 
     printobject((name,age)=>{
-      return{"name:":"name","age":age}
+      return{"name":name,"age":age}
     });
       //{"name":"홍길동","age":20}
       //JS객체 object타입 ! => return 한줄이어도 생략 불가
